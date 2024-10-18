@@ -1,10 +1,10 @@
 NAME		:= random_letters
 CFLAGS		:= -Wextra -Wall -Werror
-LIBFT		:= ./libft
+LIBFT		:= ./lib/libft
 
-HEADERS		:= -I ./include -I $(LIBFT)/include
+HEADERS		:= -I ./inc -I $(LIBFT)/include
 LIBS		:= $(LIBFT)/libft.a
-SRCS		:= $(shell find . -iname "*.c")
+SRCS		:= $(shell find ./src -iname "*.c")
 OBJS		:= ${SRCS:.c=.o}
 
 
