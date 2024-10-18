@@ -6,7 +6,7 @@
 /*   By: tomas <tomas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 22:16:59 by tomas             #+#    #+#             */
-/*   Updated: 2024/10/19 00:29:25 by tomas            ###   ########.fr       */
+/*   Updated: 2024/10/19 00:32:12 by tomas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,10 @@
 
 #include "../lib/libft/libft.h"
 #include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <unistd.h>
 
 //	errors
 bool	check_argc(int argc);

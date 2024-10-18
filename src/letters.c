@@ -6,16 +6,11 @@
 /*   By: tomas <tomas@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 21:47:07 by tomas             #+#    #+#             */
-/*   Updated: 2024/10/19 00:30:00 by tomas            ###   ########.fr       */
+/*   Updated: 2024/10/19 00:33:17 by tomas            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/letters.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <unistd.h>
-
 
 void swap(char *a, char *b)
 {
@@ -83,6 +78,5 @@ int main(int argc, char *argv[])
 	if (!check_input(argv[1], argc))
 		return (1);
 	randomletters(argv[1]);
-
 	return (1);
 }
